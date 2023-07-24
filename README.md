@@ -37,7 +37,7 @@ BoardSpringbootApplication 실행
 
 ## 5. 진행 과정
 - ### [스프링 부트 설치하기](https://github.com/ka0824/board_springboot/blob/main/document/1_install_spring_boot.md)
-
+- ### [jsp 파일 이용하기](https://github.com/ka0824/board_springboot/blob/main/document/2_use_jsp.md)
 ---
 
 ## 6. 폴더 구조
@@ -49,11 +49,17 @@ BoardSpringbootApplication 실행
  ┃ ┃ ┗ 📂com
  ┃ ┃ ┃ ┗ 📂example
  ┃ ┃ ┃ ┃ ┗ 📂board_springboot
+ ┃ ┃ ┃ ┃ ┃ ┣ 📂controller
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜HomeController.java
  ┃ ┃ ┃ ┃ ┃ ┗ 📜BoardSpringbootApplication.java
- ┃ ┗ 📂resources
+ ┃ ┣ 📂resources
  ┃ ┃ ┣ 📂static
  ┃ ┃ ┣ 📂templates
  ┃ ┃ ┗ 📜application.properties
+ ┃ ┗ 📂webapp
+ ┃ ┃ ┗ 📂WEB-INF
+ ┃ ┃ ┃ ┗ 📂view
+ ┃ ┃ ┃ ┃ ┗ 📜home.jsp
  ┗ 📂test
  ┃ ┗ 📂java
  ┃ ┃ ┗ 📂com
